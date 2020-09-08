@@ -1,0 +1,1627 @@
+/*!
+  AppId: DYHAkz49jwTIpGeN
+
+  Update: 2020/4/30 下午11:58:05
+  Version: vRKM7X
+  Created: MaquCreator V3 <Vace(ocdo@qq.com)>
+  此文件自动生成，如果不是特殊情况，尽量不要修改此文件。
+*/
+
+/* Global - CSS Code */
+
+html,
+body {
+  background-color: #FFFFFF
+}
+
+/* Loading - CSS Code */
+
+.loading-progress-bar{
+  background-color: #E9E9E9;
+}
+
+.loading-progress-bar span {
+  background-color: #000000;
+}
+
+.loading-progress-num span {
+  color: #000000;
+}
+
+/* App: 750×1180 Page: 5 —— Css Code */
+
+/* Page: index1, Children: 3 —— Css Code*/
+
+.x__repetbg {
+  height: 2.112rem;
+  left: 0;
+  position: absolute;
+  top: 38.848rem;
+  width: 23.968rem;
+}
+
+.page-leave-to .x__p1topbg {
+  animation: puffOut 300ms both;
+  transform-origin: top;
+}
+
+.x__p1topbg {
+  animation: puffIn 600ms both;
+  height: 23.744rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform-origin: top;
+  width: 23.968rem;
+}
+
+.page-leave-to .x__housebox {
+  animation: fadeOutRight 200ms 80ms both;
+}
+
+.x__housebox {
+  animation: fadeInRight 400ms 400ms both;
+  height: 11.36rem;
+  left: 4.544rem;
+  position: absolute;
+  top: 17.376rem;
+  width: 19.424rem;
+}
+
+.x__img01 {
+  animation: rotate15 1600ms infinite both;
+  height: 1.024rem;
+  left: 15.872rem;
+  position: absolute;
+  top: 22.496rem;
+  transform-origin: bottom right;
+  width: 1.056rem;
+}
+
+.page-leave-to .x__img02 {
+  animation: zoomOut 400ms 160ms infinite alternate both;
+  transform-origin: bottom;
+}
+
+.x__img02 {
+  animation: zoomIn 800ms 800ms infinite alternate both;
+  height: 3.168rem;
+  left: 14.272rem;
+  position: absolute;
+  top: 23.456rem;
+  transform-origin: bottom;
+  width: 3.008rem;
+}
+
+.page-leave-to .x__p1housetxt {
+  animation: zoomOut 300ms 80ms both;
+  transform-origin: center;
+}
+
+.x__p1housetxt {
+  animation: zoomIn 600ms 400ms both;
+  height: 1.568rem;
+  left: 4.576rem;
+  position: absolute;
+  top: 18.4rem;
+  transform-origin: center;
+  width: 17.504rem;
+}
+
+.x__p1fly {
+  animation: rotate5 4600ms infinite both;
+  height: 2.656rem;
+  left: 16.672rem;
+  position: absolute;
+  top: 8.032rem;
+  transform-origin: bottom;
+  width: 5.76rem;
+}
+
+.page-leave-to .x__p1dalishi {
+  animation: fadeOutUp 200ms 200ms both;
+  transform-origin: bottom;
+}
+
+.x__p1dalishi {
+  animation: fadeInUp 400ms 1000ms both;
+  height: 6.752rem;
+  left: 17.312rem;
+  position: absolute;
+  top: 10.592rem;
+  transform-origin: bottom;
+  width: 4.896rem;
+}
+
+.page-leave-to .x__p1gaoerf {
+  animation: fadeOutUp 200ms 160ms both;
+  transform-origin: bottom;
+}
+
+.x__p1gaoerf {
+  animation: fadeInUp 400ms 800ms both;
+  height: 7.872rem;
+  left: 11.584rem;
+  position: absolute;
+  top: 10.464rem;
+  transform-origin: bottom;
+  width: 3.68rem;
+}
+
+.x__p1paizi {
+  animation: floatY 5400ms infinite both;
+  height: 8.352rem;
+  left: 0.384rem;
+  position: absolute;
+  top: 10.432rem;
+  width: 3.904rem;
+}
+
+.page-leave-to .x__p1text2 {
+  animation: fadeOutDown 300ms 40ms both;
+}
+
+.x__p1text2 {
+  animation: fadeInDown 600ms 200ms both;
+  height: 1.248rem;
+  left: 0.128rem;
+  position: absolute;
+  top: 5.632rem;
+  width: 20.544rem;
+}
+
+.page-leave-to .x__p1text1 {
+  animation: fadeOutUp 300ms 40ms both;
+  transform-origin: top;
+}
+
+.x__p1text1 {
+  animation: fadeInUp 600ms 200ms both;
+  height: 1.856rem;
+  left: 0.064rem;
+  position: absolute;
+  top: 3.232rem;
+  transform-origin: top;
+  width: 23.936rem;
+}
+
+.x__p1ring {
+  animation: floatY 5400ms 400ms infinite both;
+  height: 5.824rem;
+  left: 7.84rem;
+  position: absolute;
+  top: 6.752rem;
+  width: 6.016rem;
+}
+
+.page-leave-to .x__p1ludeng {
+  animation: fadeOutLeft 300ms 80ms both;
+}
+
+.x__p1ludeng {
+  animation: fadeInLeft 600ms 400ms both;
+  height: 10.048rem;
+  left: 0.48rem;
+  position: absolute;
+  top: 13.44rem;
+  width: 3.744rem;
+}
+
+.x__p1logo2 {
+  height: 0.832rem;
+  left: 20.352rem;
+  position: absolute;
+  top: 1.472rem;
+  width: 2.624rem;
+}
+
+.x__top1 {
+  height: 28.736rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24rem;
+}
+
+.page-leave-to .x__img03 {
+  animation: fadeOutLeft 400ms 80ms both;
+  transform-origin: bottom;
+}
+
+.x__img03 {
+  animation: fadeInLeft 800ms 400ms both;
+  height: 12.832rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform-origin: bottom;
+  width: 14.08rem;
+}
+
+.page-leave-to .x__img04 {
+  animation: fadeOutLeft 400ms 120ms both;
+  transform-origin: bottom;
+}
+
+.x__img04 {
+  animation: fadeInLeft 800ms 600ms both;
+  height: 10.24rem;
+  left: 0;
+  position: absolute;
+  top: 8.96rem;
+  transform-origin: bottom;
+  width: 2.432rem;
+}
+
+.x__img05 {
+  height: 5.856rem;
+  left: 22.112rem;
+  position: absolute;
+  top: 1.888rem;
+  width: 1.056rem;
+}
+
+.page-leave-to .x__img06 {
+  animation: fadeOutRight 400ms 160ms both;
+  transform-origin: bottom;
+}
+
+.x__img06 {
+  animation: fadeInRight 800ms 800ms both;
+  height: 4.192rem;
+  left: 19.616rem;
+  position: absolute;
+  top: 14.656rem;
+  transform-origin: bottom;
+  width: 4.512rem;
+}
+
+.page-leave-to .x__logon {
+  animation: fadeOutUp 400ms 160ms both;
+  transform-origin: bottom;
+}
+
+.x__logon {
+  animation: fadeInUp 800ms 800ms both;
+  height: 2.528rem;
+  left: 8.832rem;
+  position: absolute;
+  top: 15.168rem;
+  transform-origin: bottom;
+  width: 6.368rem;
+}
+
+.x__img07 {
+  animation: pulse 3500ms 200ms infinite both;
+  height: 3.232rem;
+  left: 16.864rem;
+  position: absolute;
+  top: 7.584rem;
+  transform-origin: bottom;
+  width: 5.792rem;
+}
+
+.x__img08 {
+  animation: pulse 3500ms infinite both;
+  height: 6.432rem;
+  left: 18.688rem;
+  position: absolute;
+  top: 1.888rem;
+  transform-origin: bottom;
+  width: 2.272rem;
+}
+
+.x__img09 {
+  animation: floatY 800ms infinite both;
+  height: 2.976rem;
+  left: 18.752rem;
+  position: absolute;
+  top: 12.288rem;
+  width: 2.048rem;
+}
+
+.x__bot1 {
+  bottom: 2.752rem;
+  height: 19.2rem;
+  left: 0;
+  position: absolute;
+  width: 24.128rem;
+}
+
+/* Page: index2, Children: 3 —— Css Code*/
+
+.x__logop2 {
+  animation: pulse 2700ms infinite both;
+  bottom: 3.52rem;
+  height: 4.192rem;
+  left: 7.808rem;
+  position: absolute;
+  width: 8.416rem;
+}
+
+.x__bot2bg {
+  height: 25.536rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18.624rem;
+}
+
+.page-leave-to .x__p2txtr2 {
+  animation: puffOut 300ms 160ms both;
+}
+
+.x__p2txtr2 {
+  animation: puffIn 600ms 800ms both;
+  height: 1.152rem;
+  left: 22.912rem;
+  position: absolute;
+  top: 8.128rem;
+  width: 1.056rem;
+}
+
+.page-leave-to .x__p2txtr1 {
+  animation: puffOut 300ms 200ms both;
+  transform-origin: center;
+}
+
+.x__p2txtr1 {
+  animation: puffIn 600ms 1000ms both;
+  height: 1.152rem;
+  left: 18.336rem;
+  position: absolute;
+  top: 5.312rem;
+  transform-origin: center;
+  width: 1.056rem;
+}
+
+.page-leave-to .x__p2b2t8 {
+  animation: fadeOutUp 300ms 280ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t8 {
+  animation: fadeInUp 600ms 1400ms both;
+  height: 3.072rem;
+  left: 12.768rem;
+  position: absolute;
+  top: 9.952rem;
+  transform-origin: top right;
+  width: 5.088rem;
+}
+
+.page-leave-to .x__p2b2t7 {
+  animation: fadeOutUp 300ms 360ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t7 {
+  animation: fadeInUp 600ms 1800ms both;
+  height: 0.736rem;
+  left: 18.848rem;
+  position: absolute;
+  top: 8.096rem;
+  transform-origin: top right;
+  width: 4.544rem;
+}
+
+.page-leave-to .x__p2b2t6 {
+  animation: fadeOutUp 300ms 320ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t6 {
+  animation: fadeInUp 600ms 1600ms both;
+  height: 0.736rem;
+  left: 18.848rem;
+  position: absolute;
+  top: 6.88rem;
+  transform-origin: top right;
+  width: 3.904rem;
+}
+
+.page-leave-to .x__p2b2t5 {
+  animation: fadeOutUp 300ms 280ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t5 {
+  animation: fadeInUp 600ms 1400ms both;
+  height: 0.736rem;
+  left: 18.848rem;
+  position: absolute;
+  top: 5.632rem;
+  transform-origin: top right;
+  width: 2.624rem;
+}
+
+.page-leave-to .x__p2b2t4 {
+  animation: fadeOutUp 300ms 240ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t4 {
+  animation: fadeInUp 600ms 1200ms both;
+  height: 0.736rem;
+  left: 14.208rem;
+  position: absolute;
+  top: 4rem;
+  transform-origin: top right;
+  width: 3.264rem;
+}
+
+.page-leave-to .x__p2b2t3 {
+  animation: fadeOutUp 300ms 200ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t3 {
+  animation: fadeInUp 600ms 1000ms both;
+  height: 0.736rem;
+  left: 14.208rem;
+  position: absolute;
+  top: 2.784rem;
+  transform-origin: top right;
+  width: 9.696rem;
+}
+
+.page-leave-to .x__p2b2t2 {
+  animation: fadeOutUp 300ms 160ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t2 {
+  animation: fadeInUp 600ms 800ms both;
+  height: 0.736rem;
+  left: 14.208rem;
+  position: absolute;
+  top: 1.536rem;
+  transform-origin: top right;
+  width: 7.776rem;
+}
+
+.page-leave-to .x__p2b2t1 {
+  animation: fadeOutUp 300ms 120ms both;
+  transform-origin: top right;
+}
+
+.x__p2b2t1 {
+  animation: fadeInUp 600ms 600ms both;
+  height: 0.736rem;
+  left: 14.208rem;
+  position: absolute;
+  top: 0.32rem;
+  transform-origin: top right;
+  width: 3.264rem;
+}
+
+.x__bot2 {
+  height: 25.536rem;
+  left: 0.032rem;
+  position: absolute;
+  top: 8.864rem;
+  width: 23.968rem;
+}
+
+.x__p2topx1 {
+  height: 8.896rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23.968rem;
+}
+
+.x__p2toplog {
+  height: 0.896rem;
+  left: 20.576rem;
+  position: absolute;
+  top: 1.76rem;
+  width: 2.816rem;
+}
+
+.page-leave-to .x__p2tbox2 {
+  animation: fadeOutRight 300ms 120ms both;
+}
+
+.x__p2tbox2 {
+  animation: fadeInRight 600ms 600ms both;
+  height: 5.28rem;
+  left: 0.192rem;
+  position: absolute;
+  top: 3.36rem;
+  width: 23.584rem;
+}
+
+.page-leave-to .x__p2tbox1 {
+  animation: fadeOutLeft 300ms both;
+}
+
+.x__p2tbox1 {
+  animation: fadeInLeft 600ms both;
+  height: 1.536rem;
+  left: 0.608rem;
+  position: absolute;
+  top: 2.272rem;
+  width: 7.712rem;
+}
+
+.page-leave-to .x__p2tbox3 {
+  animation: zoomOut 300ms 240ms both;
+  transform-origin: top right;
+}
+
+.x__p2tbox3 {
+  animation: zoomIn 600ms 1200ms both;
+  height: 1.536rem;
+  left: 16.256rem;
+  position: absolute;
+  top: 4.128rem;
+  transform-origin: top right;
+  width: 6.976rem;
+}
+
+.page-leave-to .x__p2ttxt2 {
+  animation: fadeOutRight 300ms 160ms both;
+}
+
+.x__p2ttxt2 {
+  animation: fadeInRight 600ms 800ms both;
+  height: 1.184rem;
+  left: 1.184rem;
+  position: absolute;
+  top: 4.384rem;
+  width: 5.856rem;
+}
+
+.page-leave-to .x__p2ttxt1 {
+  animation: fadeOutLeft 300ms 40ms both;
+}
+
+.x__p2ttxt1 {
+  animation: fadeInLeft 600ms 200ms both;
+  height: 0.96rem;
+  left: 1.024rem;
+  position: absolute;
+  top: 2.624rem;
+  width: 6.784rem;
+}
+
+.page-leave-to .x__p2ttxt3 {
+  animation: fadeOutRight 300ms 200ms both;
+}
+
+.x__p2ttxt3 {
+  animation: fadeInRight 600ms 1000ms both;
+  height: 2.368rem;
+  left: 1.088rem;
+  position: absolute;
+  top: 6.048rem;
+  width: 21.44rem;
+}
+
+.x__top2 {
+  height: 8.896rem;
+  left: 0.032rem;
+  position: absolute;
+  top: 0;
+  width: 23.968rem;
+}
+
+.x__index2 {
+  background-color: #00a05d;
+}
+
+/* Page: scene, Children: 6 —— Css Code*/
+
+.x__bg9 {
+  height: 40.96rem;
+  left: 523.776rem;
+  position: absolute;
+  top: 0;
+  width: 36.288rem;
+}
+
+.x__bg8 {
+  height: 40.96rem;
+  left: 458.304rem;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bg7 {
+  height: 40.96rem;
+  left: 392.832rem;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bg6 {
+  height: 40.96rem;
+  left: 327.36rem;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bg5 {
+  height: 40.96rem;
+  left: 261.888rem;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bg4 {
+  height: 40.96rem;
+  left: 196.416rem;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bg3 {
+  height: 40.96rem;
+  left: 130.944rem;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bg2 {
+  height: 40.96rem;
+  left: 65.472rem;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bg1 {
+  height: 40.96rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 65.536rem;
+}
+
+.x__bgs {
+  height: 40.96rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 589.312rem;
+}
+
+.x__light13 {
+  height: 16rem;
+  left: 223.424rem;
+  position: absolute;
+  top: 1.248rem;
+  width: 17.376rem;
+}
+
+.x__light12 {
+  height: 16rem;
+  left: 205.536rem;
+  position: absolute;
+  top: 1.248rem;
+  width: 17.344rem;
+}
+
+.x__light11 {
+  height: 16.032rem;
+  left: 187.616rem;
+  position: absolute;
+  top: 1.248rem;
+  width: 17.376rem;
+}
+
+.x__light10 {
+  height: 16rem;
+  left: 169.824rem;
+  position: absolute;
+  top: 1.28rem;
+  width: 17.344rem;
+}
+
+.x__light9 {
+  height: 16rem;
+  left: 145.76rem;
+  position: absolute;
+  top: 0;
+  width: 17.344rem;
+}
+
+.x__light8 {
+  height: 16.032rem;
+  left: 127.872rem;
+  position: absolute;
+  top: 0;
+  width: 17.344rem;
+}
+
+.x__light7 {
+  height: 16rem;
+  left: 109.952rem;
+  position: absolute;
+  top: 0.032rem;
+  width: 17.376rem;
+}
+
+.x__light6 {
+  height: 16rem;
+  left: 86.432rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 17.344rem;
+}
+
+.x__light5 {
+  height: 16rem;
+  left: 68.512rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 17.376rem;
+}
+
+.x__light4 {
+  height: 16.032rem;
+  left: 50.624rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 17.344rem;
+}
+
+.x__light3 {
+  height: 16rem;
+  left: 32.704rem;
+  position: absolute;
+  top: 1.408rem;
+  width: 17.376rem;
+}
+
+.x__light2 {
+  height: 16rem;
+  left: 16.16rem;
+  position: absolute;
+  top: 1.408rem;
+  width: 17.344rem;
+}
+
+.x__light1 {
+  height: 16rem;
+  left: 0;
+  position: absolute;
+  top: 1.408rem;
+  width: 17.376rem;
+}
+
+.x__lights {
+  height: 17.408rem;
+  left: 108.8rem;
+  position: absolute;
+  top: 6.24rem;
+  width: 240.8rem;
+}
+
+.x__d17zhuzi {
+  height: 40.928rem;
+  left: 545.92rem;
+  position: absolute;
+  top: 0;
+  width: 12.416rem;
+}
+
+.x__d16door {
+  height: 31.936rem;
+  left: 526.976rem;
+  position: absolute;
+  top: 7.936rem;
+  width: 19.872rem;
+}
+
+.x__d15tadji {
+  height: 40.128rem;
+  left: 497.568rem;
+  position: absolute;
+  top: 0;
+  width: 31.936rem;
+}
+
+.x__d15deng {
+  height: 17.024rem;
+  left: 514.08rem;
+  position: absolute;
+  top: 0;
+  width: 5.472rem;
+}
+
+.x__d14gerf {
+  height: 26.72rem;
+  left: 360.416rem;
+  position: absolute;
+  top: 8.48rem;
+  width: 12.16rem;
+}
+
+.x__d13zhu {
+  height: 12.512rem;
+  left: 340.064rem;
+  position: absolute;
+  top: 25.504rem;
+  width: 15.296rem;
+}
+
+.x__up01 {
+  height: 3.04rem;
+  left: 444.576rem;
+  position: absolute;
+  top: 0;
+  width: 10.112rem;
+}
+
+.x__d12xrz {
+  height: 12.768rem;
+  left: 331.488rem;
+  position: absolute;
+  top: 24.704rem;
+  width: 9.12rem;
+}
+
+.x__d11mao {
+  height: 12.672rem;
+  left: 296.896rem;
+  position: absolute;
+  top: 25.472rem;
+  width: 15.232rem;
+}
+
+.x__d10tud {
+  height: 6.752rem;
+  left: 274.912rem;
+  position: absolute;
+  top: 30.464rem;
+  width: 8.064rem;
+}
+
+.x__d9gfz {
+  height: 11.712rem;
+  left: 221.76rem;
+  position: absolute;
+  top: 21.44rem;
+  width: 11.008rem;
+}
+
+.x__d9erduo {
+  height: 20.064rem;
+  left: 202.048rem;
+  position: absolute;
+  top: 17.856rem;
+  width: 11.232rem;
+}
+
+.x__d8zhuzi {
+  height: 40.928rem;
+  left: 155.84rem;
+  position: absolute;
+  top: 0;
+  width: 12.416rem;
+}
+
+.x__d7user {
+  height: 16.832rem;
+  left: 121.696rem;
+  position: absolute;
+  top: 22.08rem;
+  width: 18.496rem;
+}
+
+.x__d6player {
+  height: 13.824rem;
+  left: 110.048rem;
+  position: absolute;
+  top: 19.616rem;
+  width: 9.184rem;
+}
+
+.x__d5aguan {
+  height: 33.12rem;
+  left: 94.56rem;
+  position: absolute;
+  top: 6.752rem;
+  width: 14.4rem;
+}
+
+.x__d4float {
+  height: 5.024rem;
+  left: 83.168rem;
+  position: absolute;
+  top: 17.984rem;
+  width: 4.864rem;
+}
+
+.x__d3money {
+  height: 11.488rem;
+  left: 77.792rem;
+  position: absolute;
+  top: 27.648rem;
+  width: 13.216rem;
+}
+
+.x__d2kg {
+  height: 19.104rem;
+  left: 28.352rem;
+  position: absolute;
+  top: 0;
+  width: 3.04rem;
+}
+
+.x__d1door {
+  height: 40.96rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 22.816rem;
+}
+
+.x__brokens {
+  height: 40.96rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 559.68rem;
+}
+
+.x__click35 {
+  height: 6.08rem;
+  left: 190.752rem;
+  position: absolute;
+  top: 1.6rem;
+  width: 6.176rem;
+}
+
+.x__click33 {
+  height: 6.08rem;
+  left: 127.488rem;
+  position: absolute;
+  top: 7.744rem;
+  width: 6.176rem;
+}
+
+.x__click34 {
+  height: 6.08rem;
+  left: 118.88rem;
+  position: absolute;
+  top: 6.176rem;
+  width: 6.176rem;
+}
+
+.x__click32 {
+  height: 5.248rem;
+  left: -21.888rem;
+  position: absolute;
+  top: 8.832rem;
+  width: 5.216rem;
+}
+
+.x__click31 {
+  height: 5.024rem;
+  left: -47.008rem;
+  position: absolute;
+  top: 11.36rem;
+  width: 5.12rem;
+}
+
+.x__click30 {
+  height: 6.08rem;
+  left: 410.496rem;
+  position: absolute;
+  top: 4.384rem;
+  width: 6.176rem;
+}
+
+.x__click29 {
+  height: 6.112rem;
+  left: 236.416rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 6.208rem;
+}
+
+.x__click28 {
+  height: 6.112rem;
+  left: 229.216rem;
+  position: absolute;
+  top: 6.016rem;
+  width: 6.176rem;
+}
+
+.x__click27 {
+  height: 6.08rem;
+  left: 221.568rem;
+  position: absolute;
+  top: 7.872rem;
+  width: 6.144rem;
+}
+
+.x__click26 {
+  height: 6.08rem;
+  left: 221.568rem;
+  position: absolute;
+  top: 0;
+  width: 6.144rem;
+}
+
+.x__click25 {
+  height: 6.08rem;
+  left: 213.728rem;
+  position: absolute;
+  top: 4.416rem;
+  width: 6.176rem;
+}
+
+.x__click24 {
+  height: 6.08rem;
+  left: 199.04rem;
+  position: absolute;
+  top: 9.152rem;
+  width: 6.208rem;
+}
+
+.x__click23 {
+  height: 6.112rem;
+  left: 198.336rem;
+  position: absolute;
+  top: 1.248rem;
+  width: 6.176rem;
+}
+
+.x__click22 {
+  height: 6.112rem;
+  left: 190.976rem;
+  position: absolute;
+  top: 10.528rem;
+  width: 6.144rem;
+}
+
+.x__click21 {
+  height: 6.08rem;
+  left: 262.848rem;
+  position: absolute;
+  top: 12.704rem;
+  width: 6.208rem;
+}
+
+.x__click20 {
+  height: 6.08rem;
+  left: 183.008rem;
+  position: absolute;
+  top: 7.296rem;
+  width: 6.208rem;
+}
+
+.x__click19 {
+  height: 6.08rem;
+  left: 175.52rem;
+  position: absolute;
+  top: 9.152rem;
+  width: 6.144rem;
+}
+
+.x__click18 {
+  height: 6.112rem;
+  left: 175.52rem;
+  position: absolute;
+  top: 1.248rem;
+  width: 6.144rem;
+}
+
+.x__click17 {
+  height: 6.08rem;
+  left: 150.848rem;
+  position: absolute;
+  top: 3.232rem;
+  width: 6.176rem;
+}
+
+.x__click16 {
+  height: 6.08rem;
+  left: 142.4rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 6.176rem;
+}
+
+.x__click15 {
+  height: 6.08rem;
+  left: 134.912rem;
+  position: absolute;
+  top: 3.168rem;
+  width: 6.176rem;
+}
+
+.x__click14 {
+  height: 6.08rem;
+  left: 126.368rem;
+  position: absolute;
+  top: -0.352rem;
+  width: 6.176rem;
+}
+
+.x__click13 {
+  height: 6.08rem;
+  left: 118.24rem;
+  position: absolute;
+  top: -1.344rem;
+  width: 6.144rem;
+}
+
+.x__click12 {
+  height: 6.08rem;
+  left: 108.544rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 6.176rem;
+}
+
+.x__click11 {
+  height: 6.08rem;
+  left: 83.616rem;
+  position: absolute;
+  top: 5.792rem;
+  width: 6.176rem;
+}
+
+.x__click10 {
+  height: 6.08rem;
+  left: 75.36rem;
+  position: absolute;
+  top: 3.744rem;
+  width: 6.144rem;
+}
+
+.x__click9 {
+  height: 6.08rem;
+  left: 66.56rem;
+  position: absolute;
+  top: 8.8rem;
+  width: 6.144rem;
+}
+
+.x__click8 {
+  height: 6.08rem;
+  left: 65.92rem;
+  position: absolute;
+  top: 1.824rem;
+  width: 6.176rem;
+}
+
+.x__click7 {
+  height: 6.08rem;
+  left: 57.888rem;
+  position: absolute;
+  top: 7.968rem;
+  width: 6.176rem;
+}
+
+.x__click6 {
+  height: 6.048rem;
+  left: 57.12rem;
+  position: absolute;
+  top: 0.864rem;
+  width: 6.176rem;
+}
+
+.x__click5 {
+  height: 6.08rem;
+  left: 33.792rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 6.176rem;
+}
+
+.x__click4 {
+  height: 6.08rem;
+  left: 25.472rem;
+  position: absolute;
+  top: 3.232rem;
+  width: 6.176rem;
+}
+
+.x__click3 {
+  height: 6.08rem;
+  left: 16.896rem;
+  position: absolute;
+  top: 1.376rem;
+  width: 6.176rem;
+}
+
+.x__click2 {
+  height: 6.08rem;
+  left: 8.608rem;
+  position: absolute;
+  top: 3.232rem;
+  width: 6.176rem;
+}
+
+.x__click1 {
+  height: 6.08rem;
+  left: 0;
+  position: absolute;
+  top: 1.376rem;
+  width: 6.176rem;
+}
+
+.x__clicks {
+  height: 16.64rem;
+  left: 111.2rem;
+  position: absolute;
+  top: 9.664rem;
+  width: 242.624rem;
+}
+
+.x__group6 {
+  height: 17.12rem;
+  left: 240.032rem;
+  position: absolute;
+  top: 6.752rem;
+  width: 13.056rem;
+}
+
+.x__group5 {
+  height: 3.808rem;
+  left: 173.472rem;
+  position: absolute;
+  top: 1.792rem;
+  width: 12.128rem;
+}
+
+.x__group4 {
+  height: 3.808rem;
+  left: 128.128rem;
+  position: absolute;
+  top: 0;
+  width: 12.128rem;
+}
+
+.x__group3 {
+  height: 3.808rem;
+  left: 110.144rem;
+  position: absolute;
+  top: 14.848rem;
+  width: 12.16rem;
+}
+
+.x__group2 {
+  height: 3.808rem;
+  left: 41.504rem;
+  position: absolute;
+  top: 1.504rem;
+  width: 12.16rem;
+}
+
+.x__group1 {
+  height: 3.84rem;
+  left: 0;
+  position: absolute;
+  top: 14.624rem;
+  width: 8.288rem;
+}
+
+.x__ext_cl1 {
+  height: 1.696rem;
+  left: 250.272rem;
+  position: absolute;
+  top: 10.24rem;
+  width: 1.664rem;
+}
+
+.x__ext_cl2 {
+  height: 1.664rem;
+  left: 391.808rem;
+  position: absolute;
+  top: 8.288rem;
+  width: 1.664rem;
+}
+
+.x__ext_tip {
+  height: 3.744rem;
+  left: 393.824rem;
+  position: absolute;
+  top: 8.032rem;
+  width: 16.448rem;
+}
+
+.x__click_hot {
+  height: 19.808rem;
+  left: 388.64rem;
+  position: absolute;
+  top: 1.408rem;
+  width: 7.776rem;
+}
+
+.x__groups {
+  height: 23.872rem;
+  left: 145.216rem;
+  position: absolute;
+  top: 7.072rem;
+  width: 410.272rem;
+}
+
+.x__up08 {
+  height: 30.784rem;
+  left: -0.256rem;
+  position: absolute;
+  top: 6.496rem;
+  width: 7.264rem;
+}
+
+/* Page: psd01, Children: 2 —— Css Code*/
+
+.x__img_share {
+  animation: rotate5 2600ms infinite both;
+  height: 2.432rem;
+  left: 5.344rem;
+  position: absolute;
+  top: 28.96rem;
+  width: 12.192rem;
+}
+
+.page-leave-to .x__img_box {
+  animation: puffOut 200ms both;
+}
+
+.x__img_box {
+  animation: puffIn 400ms both;
+  height: 28.352rem;
+  left: 2.752rem;
+  position: absolute;
+  top: 0;
+  width: 17.408rem;
+}
+
+.page-leave-to .x__img_src {
+  animation: zoomOut 200ms 20ms both;
+}
+
+.x__img_src {
+  animation: zoomIn 400ms 100ms both;
+  height: 11.744rem;
+  left: 5.024rem;
+  position: absolute;
+  top: 6.272rem;
+  width: 11.808rem;
+}
+
+.x__img_next {
+  animation: floatXPer 1200ms 400ms infinite both;
+  height: 1.888rem;
+  left: 21.568rem;
+  position: absolute;
+  top: 13.44rem;
+  width: 1.312rem;
+}
+
+.x__img_prev {
+  animation: floatXPer 1200ms infinite both;
+  height: 1.888rem;
+  left: 0;
+  position: absolute;
+  top: 13.44rem;
+  width: 1.312rem;
+}
+
+.page-leave-to .x__img_text {
+  animation: fadeOutDown 200ms 40ms both;
+}
+
+.x__img_text {
+  animation: fadeInDown 400ms 200ms both;
+  height: 2.688rem;
+  left: 3.552rem;
+  position: absolute;
+  top: 20.224rem;
+  width: 15.456rem;
+}
+
+.page-leave-to .x__img_close {
+  animation: spinner 1100ms 120ms infinite both;
+}
+
+.x__img_close {
+  animation: spinner 2200ms 600ms infinite both;
+  height: 2.144rem;
+  left: 3.968rem;
+  position: absolute;
+  top: 1.184rem;
+  width: 2.144rem;
+}
+
+.x__box-img {
+  height: 31.392rem;
+  left: 0.64rem;
+  position: absolute;
+  top: 2.464rem;
+  width: 22.88rem;
+}
+
+.page-leave-to .x__pic-view {
+  animation: puffOut 200ms both;
+}
+
+.x__pic-view {
+  animation: puffIn 400ms both;
+  height: 29.28rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18.08rem;
+}
+
+.page-leave-to .x__pic-close {
+  animation: spinner 600ms both;
+}
+
+.x__pic-close {
+  animation: spinner 1200ms both;
+  height: 2.592rem;
+  left: 7.744rem;
+  position: absolute;
+  top: 30.24rem;
+  width: 2.592rem;
+}
+
+.x__box-pic {
+  height: 32.832rem;
+  left: 3.392rem;
+  position: absolute;
+  top: 1.536rem;
+  width: 18.08rem;
+}
+
+/* Page: update1, Children: 3 —— Css Code*/
+
+.page-leave-to .x__img0c {
+  animation: fadeOutLeft 400ms 40ms both;
+}
+
+.x__img0c {
+  animation: fadeInLeft 800ms 200ms both;
+  height: 27.168rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18.624rem;
+}
+
+.x__img0d {
+  height: 11.136rem;
+  left: 14.144rem;
+  position: absolute;
+  top: 0.096rem;
+  width: 6.88rem;
+}
+
+.page-leave-to .x__img0e {
+  animation: zoomOut 400ms 120ms both;
+}
+
+.x__img0e {
+  animation: zoomIn 800ms 600ms both;
+  height: 4.384rem;
+  left: 4.704rem;
+  position: absolute;
+  top: 2.912rem;
+  width: 5.248rem;
+}
+
+.x__p3bot {
+  height: 27.168rem;
+  left: 0.032rem;
+  position: absolute;
+  top: 8.864rem;
+  width: 21.024rem;
+}
+
+.x__img0f {
+  height: 8.8rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23.968rem;
+}
+
+.page-leave-to .x__img0g {
+  animation: fadeOutLeft 300ms 40ms both;
+}
+
+.x__img0g {
+  animation: fadeInLeft 600ms 200ms both;
+  height: 5.28rem;
+  left: 0.192rem;
+  position: absolute;
+  top: 3.36rem;
+  width: 23.584rem;
+}
+
+.page-leave-to .x__img0h {
+  animation: fadeOutUp 300ms 80ms both;
+}
+
+.x__img0h {
+  animation: fadeInUp 600ms 400ms both;
+  height: 2.08rem;
+  left: 0.544rem;
+  position: absolute;
+  top: 6.176rem;
+  width: 22.4rem;
+}
+
+.page-leave-to .x__img0i {
+  animation: fadeOutLeft 300ms both;
+}
+
+.x__img0i {
+  animation: fadeInLeft 600ms both;
+  height: 1.504rem;
+  left: 0.64rem;
+  position: absolute;
+  top: 2.272rem;
+  width: 7.712rem;
+}
+
+.x__img0j {
+  animation: floatXPer 5300ms infinite both;
+  height: 1.504rem;
+  left: 16.288rem;
+  position: absolute;
+  top: 4.128rem;
+  width: 6.88rem;
+}
+
+.x__img0k {
+  height: 0.896rem;
+  left: 20.576rem;
+  position: absolute;
+  top: 1.76rem;
+  width: 2.816rem;
+}
+
+.x__p3top {
+  height: 8.8rem;
+  left: 0.032rem;
+  position: absolute;
+  top: 0;
+  width: 23.968rem;
+}
+
+.x__img0l {
+  animation: pulse 1000ms 200ms infinite both;
+  height: 1.12rem;
+  left: 0;
+  position: absolute;
+  top: 3.072rem;
+  width: 8.416rem;
+}
+
+.x__img0m {
+  animation: floatYPer 4400ms infinite both;
+  height: 2.528rem;
+  left: 2.4rem;
+  position: absolute;
+  top: 0;
+  width: 3.616rem;
+}
+
+.x__p3dow {
+  bottom: 1.792rem;
+  height: 4.192rem;
+  left: 7.808rem;
+  position: absolute;
+  width: 8.416rem;
+}
+
+.x__update1 {
+  background-color: #00a05d;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/pixi.js/5.2.1/pixi.min.js"></script>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
+<body>
+    <script>
+        //判断浏览器渲染引擎
+        const type = PIXI.utils.isWebGLSupported() ? "WebGL" : "canvas";
+        //console.log(type);//WebGL
+        PIXI.utils.sayHello(type);//PixiJS 5.2.1 - WebGL - http://www.pixijs.com/
+        //创建一个Pixi应用
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        const resolution = window.devicePixelRatio;
+        console.log(resolution)
+        const dpr = window.devicePixelRatio;
+        let app = new PIXI.Application({
+            width: width,
+            height: height,
+            resolution: 1, //分辨率，渲染器设备像素比，R屏默认为2. 横屏是1
+            transparent: true, //视图是否透明
+            antialias: true //是否平滑抗锯齿，取消字体平滑，抗混叠。
+        });
+        document.body.appendChild(app.view);
+        // app.loader 	PIXI.Loader 	加载器实例用于资源加载，用于加载静态资源。
+        // app.renderer PIXI.Renderer|PIXI.CanvasRenderer 	WebGL渲染器，可使用CanvasRenderer。
+        // app.resizeTo Window|HTMLElement 	元素或窗口尺寸更改
+        // app.screen 	PIXI.Rentangle 	渲染器的屏幕矩形对象
+        // app.stage 	PIXI.Container 	根显示容器，舞台，pixi创建的根容器。游戏中的精灵或容器都要添加到舞台上才能显示。
+        // app.ticker 	PIXI.Ticker 	计时器，可理解为每次渲染一帧前执行。
+        // app.view 	HTMLCanvasElement 	渲染器的canvas元素，pixi创建的DOM元素即用于渲染游戏的canvas。
+        app.renderer.backgroundColor = 0xff0000;
+        console.log(app.renderer.view.width);//400
+        console.log(app.renderer.view.height);//300
+        //重新设置画布的canvas宽高尺寸
+        // app.renderer.autoResize = true;
+        // app.renderer.resize(512, 512);
+        // console.log(app.renderer.view.width);//512
+        // console.log(app.renderer.view.height);//512
+
+        //     ---------------   渲染器app.renderer-------------
+        const rendererType = app.renderer.type;
+        console.log(rendererType)
+        //-----------容器 PIXI.Container()------------
+        let container = new PIXI.Container();
+        //将图像加载到纹理缓存
+        //使用纹理创建精灵
+        const imgpath = "img/d1door.png";
+        PIXI.loader.add(imgpath).load(function () {
+            let texture = PIXI.loader.resources[imgpath].texture;
+            let sprite = new PIXI.Sprite(texture);
+            sprite.x = 0;
+            sprite.y = 0;
+            sprite.width =width;
+            sprite.height =height;
+            app.stage.addChild(sprite);
+        });
+
+    </script>
+</body>
+
+</html>
