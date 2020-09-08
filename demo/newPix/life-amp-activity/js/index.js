@@ -80,6 +80,7 @@ class Main {
 
   initScenes = () => {
     const scenes = scenesData.map(v => {
+		console.log(v)
       let scene = new PIXI.Container({
         width: v.width,
         height: v.height,
